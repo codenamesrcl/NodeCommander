@@ -1,0 +1,24 @@
+{
+  "name": "NodeCommander",
+  "version": "0.0.1",
+  "description": "A basic command manager GUI done in Electron and Angular",
+  "main": "app.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "keywords": [
+    "electron",
+    "playground"
+  ],
+  "author": "codenamesrcl",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^0.34.0"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "q": "^1.4.1",
+    "tree-kill": "^0.1.1"
+  }
+}

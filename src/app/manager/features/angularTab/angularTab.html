@@ -1,0 +1,16 @@
+<div data-ng-controller="angularTab as vm" style="padding: 10px;">
+
+	<h2>Servers / Commands</h2>
+
+	<div data-ng-repeat="childprocess in vm.childProcessList">
+		<h4 data-ng-bind="childprocess.name"></h4>
+
+		<div data-child-process
+			 data-processname="{{childprocess.displayName}}"
+			 data-command="{{childprocess.makeFunc()}}"
+			 data-command-config="{{childprocess.commandConfig}}"
+			 data-outputlimit="100">
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,34 @@
+{
+  "name": "electron_playground",
+  "version": "0.0.1",
+  "description": "a playground for electron",
+  "main": "app.js",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "electron",
+    "playground"
+  ],
+  "authors": [
+    "codenamesrcl"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.5",
+    "angular-animate": "~1.4.5",
+    "angular-bootstrap": "~0.13.4",
+    "bootstrap": "~3.3.5",
+    "lodash": "~3.10.1"
+  }
+}
