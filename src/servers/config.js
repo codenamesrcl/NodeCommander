@@ -48,7 +48,7 @@
 
         //ServerDef(path, main, expectedport)
         baseService.config = {
-            example: new ServerDef('base path', 'nodetarget', 'expectedport', 'customcommand'),
+            
         }
 
         return baseService;
